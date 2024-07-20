@@ -1,0 +1,8 @@
+   {
+     "framework": "nextjs", // Или ваш фреймворк
+     "build": {
+       "command": "npm run build || yarn build", // Ваша команда сборки
+       "output": "dist" // Каталог с собранными файлами
+     }
+   }
+   
