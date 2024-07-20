@@ -1,0 +1,64 @@
+// style.sass
+@import "variables";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-family;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: $primary-color;
+  color: $white;
+  padding: 1em 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 1em;
+}
+
+nav a {
+  color: $white;
+  text-decoration: none;
+}
+
+main {
+  padding: 2em;
+}
+
+.hero {
+  background-color: $secondary-color;
+  padding: 2em;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+article {
+  width: 45%;
+  padding: 1em;
+  border: 1px solid $gray;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: $primary-color;
+  color: $white;
+  padding: 1em 0;
+  text-align: center;
+}
